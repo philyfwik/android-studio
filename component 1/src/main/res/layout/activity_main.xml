@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="34dp"
+        android:text="CART"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:text="EVENTS"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:id="@+id/name"
+        android:layout_width="91dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="42dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NAME"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="Badminton" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="Basketball" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="Swimming" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id"
+        android:layout_width="48dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="42dp"
+        android:layout_toEndOf="@+id/name"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ID"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="2A" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="7E" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="3D" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/time"
+        android:layout_width="75dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="42dp"
+        android:layout_toEndOf="@+id/id"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="14:00" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="16:20" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="16:20" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cost"
+        android:layout_width="86dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="42dp"
+        android:layout_toEndOf="@+id/time"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cost"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="$5.05" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="$7.25" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="$9.40" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ticket"
+        android:layout_width="77dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="42dp"
+        android:layout_toEndOf="@+id/cost"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tickets"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <Spinner
+            android:id="@+id/badmintonTicket"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="TextView" />
+
+        <Spinner
+            android:id="@+id/basketballTicket"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="TextView" />
+
+        <Spinner
+            android:id="@+id/swimmingTicket"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/subtotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cost"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="SUBTOTAL:" />
+
+    <Button
+        android:id="@+id/checkout"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subtotal"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="12dp"
+        android:text="CHECKOUT" />
+
+    <Button
+        android:id="@+id/cont"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkout"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="47dp"
+        android:text="CONTINUE SHOPPING" />
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkout"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="8dp"
+        android:text="CLEAR CART" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="7dp"
+        android:text="* costs are after tax" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subtotal"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="242dp"
+        android:onClick="sum"
+        android:text="update subtotal" />
+
+</RelativeLayout>
